@@ -15,5 +15,7 @@ SWC100 - https://swcregistry.io/docs/SWC-100
 
 In depth reading - https://github.com/sigp/solidity-security-blog#visibility
 
+Real World Example (First Parity MultiSig Wallet Hack) - https://github.com/sigp/solidity-security-blog#real-world-example-parity-multisig-wallet-first-hack
+
 ---
 
