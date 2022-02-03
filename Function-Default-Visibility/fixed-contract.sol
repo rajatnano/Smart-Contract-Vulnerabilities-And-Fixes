@@ -19,10 +19,8 @@ contract HashForEther {
      
      /*this function is specified as INTERNAL function;
      i.e. he function can only be called within the contract itself and using 'this' for any derived contracts.
-     Similar to how PROTECTED behaves in OOPs programming languages like C/C++*/
+     Similar to how PROTECTED behaves in OOPs programming languages like C/C++.*/     
      function _sendWinnings() internal{
          msg.sender.transfer(this.balance);
      }
-     
-     
 }
