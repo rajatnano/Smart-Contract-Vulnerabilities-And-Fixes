@@ -1,5 +1,5 @@
 # Smart-Contract-Vulnerabilities-And-Fixes
-Examples of smart contract vulnerabilities and fixes
+Smart contract vulnerabilities and fixes with examples and case studies
 
 1. Function Default Visibility
 
