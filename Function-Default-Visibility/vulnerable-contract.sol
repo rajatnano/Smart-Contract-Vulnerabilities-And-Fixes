@@ -17,7 +17,7 @@ contract HashForEther {
         _sendWinnings();
      }
 
-     //NO VISIBILITY SET -> 2. ANYONE CAN ACCESS THE FUNCTION MAKING IT VULNERABLE TO THEFT/ATTACK
+     //NO VISIBILITY SET -> 2. ANYONE CAN PUT THEIR ADDRESS AND TAKE SOMEONE ELSE's WINNINGS
      function _sendWinnings() {
          msg.sender.transfer(this.balance);
      }
